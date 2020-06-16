@@ -9,21 +9,21 @@ namespace EndangeredAnimalsAPI.Models
   {
     public int AnimalId { get; set; }
     //First block of params come from Individual Species query
-    public int TaxonId { get; set; }
-    public string SciName { get; set; }
+    public int taxonid { get; set; }
+    public string scientific_name { get; set; }
     public string CommonName { get; set; }
-    public string Category { get; set; }
-    public string Summary { get; set; }
-    public string Population_Trend { get; set; }
+    public string category { get; set; }
+    public string rationale { get; set; }
+    public string populationtrend { get; set; }
 
     //The following params come from Narrative query
-    public string Population { get; set; }
-    public string GeographicRange { get; set; }
-    public string Habitat { get; set; }
-    public string Threats { get; set; }
-    public string Conservation { get; set; }
+    public string population { get; set; }
+    public string geographicrange { get; set; }
+    public string habitat { get; set; }
+    public string threats { get; set; }
+    public string conservationmeasures { get; set; }
     //This param comes from Countries by Species query
-    public string Countries { get; set; }
+    public string country { get; set; }
     public string ImageURL { get; set; }
 
   }
