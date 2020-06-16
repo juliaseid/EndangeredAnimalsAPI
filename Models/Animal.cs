@@ -11,9 +11,9 @@ namespace EndangeredAnimalsAPI.Models
     //First block of params come from Individual Species query
     public int TaxonId { get; set; }
     public string SciName { get; set; }
-    public string Family { get; set; }
     public string CommonName { get; set; }
     public string Category { get; set; }
+    public string Summary { get; set; }
     public string Population_Trend { get; set; }
 
     //The following params come from Narrative query
